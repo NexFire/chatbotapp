@@ -2,7 +2,7 @@ import openai
 from PyQt5.QtWidgets import QApplication, QLabel, QWidget,QLineEdit,QScrollArea,QVBoxLayout,QHBoxLayout,QListWidget,QListWidgetItem
 from PyQt5.QtCore import Qt, QSize
 import sys
-openai.api_key="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"
+
 
 
 response=openai.ChatCompletion.create(model="gpt-3.5-turbo",
